@@ -1,12 +1,12 @@
 # AI Chatbot - Astro Framework
 
 <h1>Clone & Run Project</h1>
-```sh
+<pre>
 git clone https://github.com/fitri-hy/AI-Chatbot-Astro-Framework.git
 cd AI-Chatbot-Astro-Framework
 npm install
 npm run dev
-```
+</pre>
 
 <h1>Using Framework CSS</h1>
 <ul><li>Tailwind</li></ul>
