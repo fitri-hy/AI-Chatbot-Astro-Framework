@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavigationBar from '../components/NavigationBar.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Featured from '../components/Featured.astro';
+import Pricing from '../components/Pricing.astro';
+import Footer from '../components/Footer.astro';
+import BottomNavigation from '../components/BottomNavigation.astro';
+---
+
+<Layout title="GPT Partners">
+	<main class="w-screen absolute z-50 p-5">
+		<NavigationBar title="NavigationBar" />
+		<Hero title="Hero"/>
+		<About title="About"/>
+		<Featured title="Featured"/>
+		<Pricing title="Pricing"/>
+		<Footer title="Footer"/>
+		<BottomNavigation title="BottomNavigation"/>
+	</main>
+</Layout>
